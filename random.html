@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: blueviolet;
+        }
+        input{
+            padding: 8px;
+            font-size: 16px;
+        }
+        button{
+            padding: 8px 15px;
+            font-size: 18px;
+            color: blue;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Guess the Numbes (1 to 100)</h1>
+    <input type="number" id="guessInput" placeholder="Enter Your Guess">
+    <button onclick="checkGuess()">Submit</button>
+    <div id="message"></div>
+    <p>Attempts: <span  id="attempts">0</span></p>
+    <script src="script.js"></script>
+</body>
+</html>
